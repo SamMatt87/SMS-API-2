@@ -90,7 +90,7 @@ class SMSController(BaseController):
                 digit
 
         Returns:
-            MessageSentResponse: Response from the API. Success
+            list of MessageSentResponse: Response from the API. Success
 
         Raises:
             APIException: When an error occurs while fetching the data from
